@@ -1,10 +1,8 @@
-con = 0
-
 while True:
     print("-" * 20)
     n = int(input("Digite o valor desejado para ver sua tabuada: "))
     print("-" * 20)
-    if n == 999:
+    if n <= -1:
         break
     for c in range(1,11):
         so = n * c     
